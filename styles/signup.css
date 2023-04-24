@@ -1,0 +1,56 @@
+body{
+    font-family: Nunito-VariableFont, Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,27,50,1) 45%, rgba(85,49,97,1) 100%);
+    color:rgb(255, 255, 255);
+}
+.form-control{
+    font-family: Nunito-Regular;
+    border-radius: 10px; 
+    border: 1px solid white; 
+    color:white;
+    background-color: transparent;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 1%;
+}
+.form-control:focus{
+    color:white;
+    background-color: transparent;
+}
+.form-control::placeholder{
+    color:rgb(184, 184, 184);
+    padding-left: 2%;
+}
+button.btn-hover.color-3.pr-3{
+    margin-left: 30px;
+}
+
+
+.btn{
+    color:white;
+}
+
+p.fname,p.lname,p.uname,p.pass{
+  font-family: Nunito-Bold;
+  color: rgb(184, 184, 184);
+  padding-left: 2%;
+  margin-top: .9%;
+  margin-bottom: 1%;
+}
+input#fname,input#lname,input#uname,input#pass{
+  font-family: Nunito-Regular;
+  border-radius: 10px; 
+  border: 1px solid rgb(124, 124, 124); 
+  color: white; 
+  background-color: transparent;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 1%;
+  padding-left: 4%;
+  margin-left: 2%;
+}
+label{
+  font-family: Nunito-Semibold;
+  color:rgb(47, 23, 61);
+}
